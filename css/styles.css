@@ -163,6 +163,7 @@ nav li a:hover{
   width: 1000px;
   font-size: calc(1.475rem + 2.7vw);
   height: auto;
+  box-sizing: border-box;
 }
 .cv-section-text{
   text-align: left;
