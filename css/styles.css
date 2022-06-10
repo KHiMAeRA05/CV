@@ -63,7 +63,11 @@
   --bs-body-color: #212529;
   --bs-body-bg: #fff;
 }
-html {
+html,body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+
   color: #222;
   font-size: 1em;
   line-height: 1.4;
@@ -71,6 +75,44 @@ html {
   scroll-behavior: smooth;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
+/* Fill button styling */
+button {
+  margin: 50px;
+  font-family: inherit;
+}
+.fill {
+  font-size: 20px;
+  font-weight: 200;
+  letter-spacing: 1px;
+  padding: 13px 50px 13px;
+  outline: 0;
+  border: 1px solid black;
+  cursor: pointer;
+  position: relative;
+  color: #efefef;
+  z-index: 1;
+}
+
+.fill::after {
+  content: "";
+  color: #efefef;
+  background-color: #333333;
+  width: 100%;
+  z-index: -2;
+  position: absolute;
+  height: 100%;
+  top: 7px;
+  left: 7px;
+  transition: 0.2s;
+}
+
+.fill:hover::after {
+  top: 0px;
+  left: 0px;
+  z-index: -2;
+}
+/* End of Fill Button  */
+
 body::-webkit-scrollbar{
   width: 1em;
 }
@@ -82,10 +124,11 @@ body::-webkit-scrollbar-thumb {
   background-color: #dc3545;
 }
 body{
-  font-family: "Segoe UI";
+  font-family: "Segoe UI", serif;
   padding: 0;
   margin: 0;
   background: #f1f1f1;
+
 }
 
 hr {
@@ -219,6 +262,8 @@ footer {
   display: table;
   clear: both;
 }
+
+
 .api-right{
   display: inline-block;
   color: #333333;
