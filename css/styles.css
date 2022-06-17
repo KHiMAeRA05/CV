@@ -213,8 +213,9 @@ nav li a:hover{
   padding-left: 45px;
 }
 .cv-section-img{
-  max-height: 100%;
+  max-height: 400px;
   padding-left: 45px;
+  height: 400px;
 }
 /* Footer */
 footer {
@@ -332,6 +333,13 @@ footer {
 }
 .mb-2{
   font-size: 25px;
+}
+
+.weather-style{
+  font-size: 64px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 /*
  * Remove text-shadow in selection highlight:
@@ -564,4 +572,131 @@ textarea {
     page-break-after: avoid;
   }
 
+}
+
+/* Buttons/Button Sign Up */
+
+.buttons {
+  position: absolute;
+  width: 260px;
+  height: 104px;
+  left: 1159px;
+  top: 22px;
+}
+/* Button shell */
+
+.button-shell {
+  position: absolute;
+  width: 254px;
+  height: 85px;
+  left: 6px;
+  top: 19px;
+}
+/* Shell */
+
+.shell{
+  position: absolute;
+  width: 254px;
+  height: 82px;
+  left: 6px;
+  top: 22px;
+}
+
+/* Gradient */
+
+.gradient{
+  position: absolute
+;
+  left: 7px
+;
+  right: 10px
+;
+  top: 19px
+;
+  bottom: 0px
+;
+
+  background: linear-gradient(180deg, rgba(20, 32, 54, 0) 0%, rgba(0, 0, 0, 0.125) 100%)
+;
+  mix-blend-mode: hard-light
+;
+}
+/* Colors/White */
+
+.colors-white {
+  position: absolute;
+  height: 85px;
+  left: 7px;
+  right: 10px;
+  top: 19px;
+}
+/* White */
+
+.white {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+
+  background: #FFFFFF;
+}
+/* Button components/Shells */
+
+.buttonscomponents-shell {
+  position: absolute;
+  height: 82px;
+  left: 6px;
+  right: 0px;
+  top: 22px;
+}
+/* Subtract */
+.substract {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 243.24px;
+  height: 85px;
+  left: 0.85px;
+  top: -3px;
+
+  background: #FFFFFF;
+  border: 36px solid #000000;
+}
+
+/* Rectangle 37 */
+
+.rectangle-37 {
+  position: absolute;
+  width: 37.85px;
+  height: 136.29px;
+  left: -7.58px;
+  bottom: -15.29px;
+
+  background: #D9D9D9;
+  transform: rotate(14.19deg);
+}
+/* Rectangle 37 */
+
+.rectangle-38 {
+  position: absolute;
+  width: 37.85px;
+  height: 136.29px;
+  left: 250.42px;
+  bottom: -26.29px;
+
+  background: #D9D9D9;
+  transform: rotate(14.19deg);
+}
+
+/* Rectangle 35 */
+
+.rectangle-35 {
+  position: absolute;
+  height: 85px;
+  left: 0px;
+  right: 0px;
+  top: -3px;
+
+  background: #FFFFFF;
 }

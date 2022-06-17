@@ -4,6 +4,7 @@
   <meta charset="utf-8" />
   <title> CV - Aleksandra Voronova </title>
   <link rel="stylesheet" href="css/styles.css" type="text/css" >
+  <script src="bundle.js"></script>
 </head>
 <body>
 <!-- Navigation/Header -->
@@ -30,31 +31,19 @@
       <h2 class="cv-section-headings" style="color: #f0f0f0; background: #333333;">API</h2>
       <div class="row container">
         <div class="column api-left">
-          <h3 class="mb-0" style="color: #333333;">SVG Monster</h3>
 
-          <div class="cv-section-img">
-            <img src="https://app.pixelencounter.com/api/basic/monsters/random" style="max-height: 50vh;"/>
+          <div id = "get-weather" class="weather-style" >
+            <p class="mb-1"> What's the weather like today?</p>
           </div>
+
         </div>
         <div class="column api-right">
-          <h3 class="mb-0" style="color: #333333;">Geolocation</h3>
+          <h3 class="mb-0" style="color: #333333;">Get the weather</h3>
           <div class="cv-section-text">
-            <p class="mb-1">Click the button to get your coordinates.</p>
+            <p class="mb-1" id="id1">Click the button to get the weather</p>
 
-            <button type="button" class="fill" onclick="getLocation()">Update</button>
+            <button type="button" class="fill" id="update-btn">Update</button>
 
-            <p id="demo"></p>
-
-            <script>
-              const x = document.getElementById("demo");
-              function getLocation() {
-                navigator.geolocation.getCurrentPosition(showPosition);
-              }
-              function showPosition(position) {
-                x.innerHTML = "Latitude: " + position.coords.latitude +
-                  "<br>Longitude: " + position.coords.longitude + "<br><h1> <------- Now it can find you</h1>";
-              }
-            </script>
           </div>
 
         </div>
