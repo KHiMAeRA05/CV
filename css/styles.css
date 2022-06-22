@@ -83,6 +83,33 @@ button {
   font-family: inherit;
 }
 
+.blockquote-5 {
+  position: relative;
+  padding: 16px 24px;
+  margin: 16px 16px 26px 16px;
+  font-size: 16px;
+  border-top: 2px solid #333333;
+  border-bottom: 2px solid #333333;
+}
+.blockquote-5::after {
+  font-family: "Segoe UI", serif;
+  font-weight: bold;
+  position: absolute;
+  content: "”";
+  color: #333333;
+  font-size: 160px;
+  line-height: 0;
+  bottom: -22px;
+  right: 30px;
+  text-shadow: 2px 0 0 #333333, -2px 0 0 #333333, 0 2px 0 #333333, 0 -2px 0 #333333, 1px 1px #333333, -1px -1px 0 #333333, 1px -1px 0 #333333, -1px 1px 0 #333333;
+}
+.blockquote-5 cite {
+  color: #333333;
+  font-size: 15px;
+  padding-top: 20px;
+  display: block;
+}
+
 .fill {
   font-size: 20px;
   font-weight: 200;
@@ -194,9 +221,6 @@ nav li a:hover {
 }
 
 /* Style the footer */
-#api {
-  height: 100vh;
-}
 
 #home {
   height: 100vh;
@@ -204,11 +228,23 @@ nav li a:hover {
 
 .home-container {
   height: 100vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .split_left {
   width: 45%;
   float: left;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
 }
 
 .split_right {
@@ -250,7 +286,7 @@ footer {
   background-color: #333;
   color: white;
   padding: 1% 1em 0 1em;
-  height: 100vh;
+  /*height: 100vh;*/
   display: block;
   margin: 0 0 0 0;
   bottom: 0;
@@ -265,7 +301,7 @@ footer {
 
 .row-section {
   display: flex;
-  height: 200px;
+  /*height: 200px;*/
   padding-left: 10px;
   padding-right: 10px;
 }
@@ -287,6 +323,7 @@ footer {
   height: 506px;
   padding-left: 50px;
   padding-right: 50px;
+  margin-bottom: calc(4vw + 0.83em);
 }
 
 /* Clear floats after the columns */
@@ -324,6 +361,12 @@ footer {
   width: 22%;
   background-color: #dc3545;
   color: white;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: flex-start;
+  align-items: center;
 }
 
 .form-control {
@@ -375,9 +418,11 @@ footer {
 }
 
 .mb-2 {
-  font-size: 25px;
+  font-size: 1.35rem;
 }
-
+.mb-3 {
+  font-size: 1.25rem;
+}
 .weather-style {
   font-size: 64px;
   display: flex;

@@ -8,7 +8,7 @@
 </head>
 <body>
 <!-- Navigation/Header -->
-<header>
+<header style="z-index: 5;">
   <!--<h1> Aleksandra Voronova </h1> -->
   <nav>
     <ul>
@@ -56,20 +56,26 @@
       <div class="home-container">
         <div class="split_left">
           <div>
-            <h1 style="font-size:6vw; text-align: left; margin: 150px 0 0 45px;">
-              Hello,
-            </h1>
-            <h2 style="font-size:3vw; text-align: left; margin: 0 0 0 45px;">
-              I'm Aleksandra Voronova
+            <h2 style="font-size:3vw; text-align: left; margin: 60px 0 0 45px;">
+              Hello, I'm
             </h2>
+            <h1 style="font-size:4vw; text-align: left; margin: 0 0 0 45px;">
+              Aleksandra Voronova
+            </h1>
+
             <p style="font-size:2vw; text-align: justify; margin: 25px 0 0 45px;">
               First year bachelor student experienced <span style="white-space: nowrap"> in range of sport programming competitions.</span>
             </p>
+            <p style="font-size:2vw; text-align: justify; margin: 25px 0 0 45px;">Motto:</p>
+            <blockquote class="blockquote-5">
+              <p class="mb-3">The comprehension of Infinity requires infinite time.</p>
+              <cite class="mb-3">Arkady and Boris Strugatsky, Monday Begins on Saturday</cite>
+            </blockquote>
           </div>
         </div>
 
         <div class="split_right">
-          <img src="img/constructivism.jpg" alt="constructive" style="max-width: 100vw; max-height: 100vh;" -->
+          <img src="img/constructivism.jpg" alt="constructive" style="max-width: 50vw; max-height: 100vh;" >
         </div>
       </div>
     </section>
@@ -85,20 +91,20 @@
             <div class="column-section">
               <h3 class="mb-0">Innopolis University</h3>
               <div class="mb-1">Bachelor of Informatics and Computer Science</div>
-              <p>GPA: 4.29</p>
+              <p class="mb-3">GPA: 4.29, 1st year</p>
             </div>
-            <div class="column-section" style="text-align: right">
-              <p>August 2021 - July 2022</p>
+            <div class="column-section" style="text-align: left">
+              <p class="mb-3">August 2021 - nowadays</p>
             </div>
           </div>
           <div class="row-section">
             <div class="column-section">
               <h3 class="mb-0">Cosmonautic School</h3>
               <div class="mb-1">Faculty of Computer Science and Mathematics</div>
-              <!-- <p>GPA: 3.56</p> -->
+              <p class="mb-3">GPA: 4.59</p>
             </div>
-            <div class="column-section" style="text-align: right">
-              <p>September 2019 - May 2021</p>
+            <div class="column-section" style="text-align: left">
+              <p class="mb-3">September 2019 - May 2021</p>
             </div>
           </div>
         </div>
@@ -112,20 +118,38 @@
     <section class="cv-section" id="skills">
       <div>
         <h2 class="cv-section-headings" style="background: #00CFC1;">Skills</h2>
+
         <div class="cv-section-text">
-          <div class="mb-1">Programming Languages & Tools</div>
-          <ul class="mb-2">
-            <li>
-              C++
-            </li>
-            <li>
-              Java
-            </li>
-            <li>
-              Python
-            </li>
-          </ul>
+          <div class="row-section">
+            <div class="column-section">
+              <h3 class="mb-0">Hard skills</h3>
+
+              <li class="mb-1">Competitive programming: C++, Java</li>
+              <li class="mb-1">Machine Learning projects: Python, Jupyter notebook</li>
+              <li class="mb-1">Frontend web-dev projects: HTML, CSS, JavaScript</li>
+              <li class="mb-1">GitHub</li>
+            </div>
+          </div>
+
+          <div class="row-section">
+            <div class="column-section">
+              <h3 class="mb-0">Soft skills</h3>
+              <li class="mb-1">Proactive</li>
+              <li class="mb-1">strong emotional intelligence</li>
+
+            </div>
+          </div>
+          <div class="row-section">
+            <div class="column-section">
+              <h3 class="mb-0">Languages</h3>
+
+              <li class="mb-1">Russian, native</li>
+              <li class="mb-1">English, B2+ level</li>
+
+            </div>
+          </div>
         </div>
+
       </div>
     </section>
 
@@ -136,10 +160,9 @@
       <div>
         <h2 class="cv-section-headings" style="background: #5995ED;">Interests</h2>
         <div class="cv-section-text" style="font-size: 20px">
-          <p>Apart from being an IT-student, I enjoy my sport life. I am a novice snowboarder and trampoliner, ex
-            mounting climber.</p>
-          <p> I am art and literature appreciator. Fond of Strugatsky brothers, Wes Anderson and other directors and
-            writers.</p>
+          <p class="mb-2"> Apart from being an IT-student, I enjoy my sport life. I am a novice snowboarder and trampoliner, ex
+            mounting climber. <br> I am art and literature appreciator. Fond of Strugatsky brothers and Wes Anderson.
+          </p>
         </div>
       </div>
     </section>
@@ -148,7 +171,7 @@
     <!-- Awards-->
     <section class="cv-section" id="awards">
       <div>
-        <h2 class="cv-section-headings" style="background: #2E4BB2;">Awards & Certifications</h2>
+        <h2 class="cv-section-headings" style="background: #2E4BB2;">Awards</h2>
         <div class="cv-section-text mb-2" style="margin-bottom: 100px;">
           <ul>
             <li>
@@ -159,6 +182,9 @@
             </li>
             <li>
               Finalist - Big Data and Machine Learning - NTI 2020
+            </li>
+            <li>
+              On the honor board of Cosmonautic School
             </li>
           </ul>
         </div>
@@ -175,16 +201,17 @@
   </div>
   <div class="row container">
     <div class="column contactme-left">
-      <div class="phone">
+      <!--div class="phone">
         <p><span class="label-left">Phone:</span><a href="tel://79617425228"> +7 (961) 742-52-28</a></p>
-      </div>
+      </div-->
       <div class="email">
         <p><span class="label-left">Email:</span><a href="mailto:a.voronova@innopolis.university">
           a.voronova@innopolis.university</a></p>
       </div>
       <div class="telegram">
         <a href="https://t.me/Himera_05"> <img border="0" alt="github" src="img/telegram-png.png"
-                                               style="max-width: 100px; max-height: 100px; float: left; margin: 20px"></a>
+                                               style="max-width: 100px; max-height: 100px; float: left; margin: 20px">
+        </a>
       </div>
       <div class="git">
         <a href="https://github.com/KHiMAeRA05"> <img border="0" alt="github" src="img/github-png.png"
