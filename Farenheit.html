@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+</head>
+<body>
+<main>
+  <label> Enter the temperature in degrees Farenheit: </label>
+  <input id="temp-input" type="number"/>
+  <button id="convert-button"> Convert </button>
+  <p> Result: <span id="result"> awaiting input ... </span></p>
+</main>
+<script>
+  const button = document.getElementById("convert-button");
+  const result = document.getElementById("result");
+  const farenheit = document.getElementById("temp-input");
+  function convert(){
+    const value = parseInt(farenheit.value);
+    const celsius = (5/9) * (value - 32);
+    result.innerText = "$(value)$ F = $(result)$ C";
+  }
+  button.addEventListener("click", convert);
+</script>
+</body>
+</html>
