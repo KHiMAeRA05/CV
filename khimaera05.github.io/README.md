@@ -7,6 +7,8 @@ I can't create GitHub Pages with svelte for some reason.
 # If you would like to see how does ot looks like
 Then download the branch and type follow commands using terminal:
 ```
+cd .\khimaera05.github.io\svelte-typescript-app\
 npm run build
 npm run dev
 ```
+Then just click the local host :)
