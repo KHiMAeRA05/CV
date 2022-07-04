@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="69e11d2a-e4fe-4e84-9f67-5d70a1b91264" name="Changes" comment="Merdge SvelteKit_branch and main">
+    <list default="true" id="69e11d2a-e4fe-4e84-9f67-5d70a1b91264" name="Changes" comment="Deploy">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -144,7 +144,7 @@
       <workItem from="1656086113452" duration="378000" />
       <workItem from="1656091281328" duration="2757000" />
       <workItem from="1656967740959" duration="2290000" />
-      <workItem from="1656971917383" duration="38000" />
+      <workItem from="1656971917383" duration="754000" />
     </task>
     <task id="LOCAL-00001" summary="More adaptive and flexible">
       <created>1655910888048</created>
@@ -202,7 +202,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656970569944</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Deploy">
+      <created>1656972110860</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1656972110860</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -242,6 +249,7 @@
     <MESSAGE value="SvelteKit" />
     <MESSAGE value="SvelteKit: tests, prettier, linter" />
     <MESSAGE value="Merdge SvelteKit_branch and main" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merdge SvelteKit_branch and main" />
+    <MESSAGE value="Deploy" />
+    <option name="LAST_COMMIT_MESSAGE" value="Deploy" />
   </component>
 </project>
