@@ -17,21 +17,14 @@
         }
     }
 
-    const getWeather = (event: MouseEvent) => {
+    let resWeather;
+
+    const getWeather = () => {
 
         let weather: WData | WError | WLoading = {loading: true}
-        const resWeather = document.getElementById("get-weather");
-
 
         fetch("https://weatherdbi.herokuapp.com/data/weather/" + "Innopolis")
-            .then((res) => {
-                if (res.ok) {
-                    console.log(res);
-                    res.text();
-                }
-                else
-                    return res.json();
-            })
+            .then((res) => res.text())
             .then((res) => JSON.parse(res) as WData | WError)
             .then((res) => {
                 weather = res;
@@ -47,16 +40,8 @@
             });
         console.log(weather);
         if ((weather as WLoading).loading) resWeather.innerText = "Please Stand By 💿";
-
     }
 
-    const main = () => {
-        const update = document.getElementById("update-btn");
-        console.log(update);
-        update.addEventListener("click", getWeather);
-    }
-
-    window.onload = main;
 </script>
 
 <section class="cv-section" id="api">
@@ -64,7 +49,7 @@
     <div class="row container">
         <div class="column api-left">
 
-            <div id="get-weather" class="weather-style">
+            <div bind:this={resWeather} class="weather-style">
                 <p class="mb-1"> What's the weather like today?</p>
             </div>
 
@@ -74,7 +59,7 @@
             <div class="cv-section-text">
                 <p class="mb-1" id="id1">Click the button to get the weather</p>
 
-                <button type="button" class="fill" id="update-btn">Update</button>
+                <button type="button" class="fill" on:click={getWeather}>Update</button>
 
             </div>
 

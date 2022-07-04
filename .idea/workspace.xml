@@ -4,7 +4,51 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="69e11d2a-e4fe-4e84-9f67-5d70a1b91264" name="Changes" comment="New branch" />
+    <list default="true" id="69e11d2a-e4fe-4e84-9f67-5d70a1b91264" name="Changes" comment="New branch">
+      <change afterPath="$PROJECT_DIR$/khimaera05.github.io/.eslintignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/khimaera05.github.io/.eslintrc.cjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/khimaera05.github.io/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/khimaera05.github.io/.npmrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/khimaera05.github.io/.prettierignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/khimaera05.github.io/.prettierrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/khimaera05.github.io/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/khimaera05.github.io/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/khimaera05.github.io/playwright.config.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/khimaera05.github.io/src/app.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/khimaera05.github.io/src/app.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/khimaera05.github.io/src/routes/index.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/khimaera05.github.io/static/favicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/khimaera05.github.io/svelte.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/khimaera05.github.io/tests/test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/khimaera05.github.io/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/khimaera05.github.io/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/khimaera05.github.io/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/khimaera05.github.io/svelte-typescript-app/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/khimaera05.github.io/svelte-typescript-app/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/khimaera05.github.io/svelte-typescript-app/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/khimaera05.github.io/svelte-typescript-app/public/constructivism.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/khimaera05.github.io/static/constructivism.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/khimaera05.github.io/svelte-typescript-app/public/favicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/khimaera05.github.io/svelte-typescript-app/public/github.png" beforeDir="false" afterPath="$PROJECT_DIR$/khimaera05.github.io/static/github.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/khimaera05.github.io/svelte-typescript-app/public/global.css" beforeDir="false" afterPath="$PROJECT_DIR$/khimaera05.github.io/src/routes/items/global.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/khimaera05.github.io/svelte-typescript-app/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/khimaera05.github.io/svelte-typescript-app/public/telegram.png" beforeDir="false" afterPath="$PROJECT_DIR$/khimaera05.github.io/static/telegram.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/khimaera05.github.io/svelte-typescript-app/rollup.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/khimaera05.github.io/svelte-typescript-app/src/App.svelte" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/khimaera05.github.io/svelte-typescript-app/src/components/API.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/khimaera05.github.io/src/routes/API.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/khimaera05.github.io/svelte-typescript-app/src/components/Awards.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/khimaera05.github.io/src/routes/Awards.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/khimaera05.github.io/svelte-typescript-app/src/components/Education.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/khimaera05.github.io/src/routes/Education.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/khimaera05.github.io/svelte-typescript-app/src/components/Footer.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/khimaera05.github.io/src/routes/Footer.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/khimaera05.github.io/svelte-typescript-app/src/components/Header.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/khimaera05.github.io/src/routes/Header.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/khimaera05.github.io/svelte-typescript-app/src/components/Home.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/khimaera05.github.io/src/routes/Home.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/khimaera05.github.io/svelte-typescript-app/src/components/Interests.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/khimaera05.github.io/src/routes/Interests.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/khimaera05.github.io/svelte-typescript-app/src/components/Skills.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/khimaera05.github.io/src/routes/Skills.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/khimaera05.github.io/svelte-typescript-app/src/global.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/khimaera05.github.io/svelte-typescript-app/src/main.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/khimaera05.github.io/svelte-typescript-app/tsconfig.json" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,7 +57,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="HTML-CSS_version" />
+        <entry key="$PROJECT_DIR$" value="Svelte_branch" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -22,16 +66,20 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2Avos4JrbVPAf22ABkRBiwzIzwP" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/01tat/WebstormProjects/khimaera05.github.io",
+    "last_opened_file_path": "C:/Users/01tat/WebstormProjects/khimaera05.github.io/khimaera05.github.io/static",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -43,12 +91,79 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\01tat\WebstormProjects\khimaera05.github.io\khimaera05.github.io\static" />
+      <recent name="C:\Users\01tat\WebstormProjects\khimaera05.github.io\khimaera05.github.io\khimaera05.github.io\static" />
+      <recent name="C:\Users\01tat\WebstormProjects\khimaera05.github.io\khimaera05.github.io\khimaera05.github.io\src\routes" />
       <recent name="C:\Users\01tat\WebstormProjects\khimaera05.github.io\img" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\01tat\WebstormProjects\khimaera05.github.io\khimaera05.github.io\src\routes" />
+      <recent name="C:\Users\01tat\WebstormProjects\khimaera05.github.io\khimaera05.github.io" />
+      <recent name="C:\Users\01tat\WebstormProjects\khimaera05.github.io\khimaera05.github.io\khimaera05.github.io\src\routes\items" />
+      <recent name="C:\Users\01tat\WebstormProjects\khimaera05.github.io\khimaera05.github.io\khimaera05.github.io\src\routes\item" />
       <recent name="C:\Users\01tat\WebstormProjects\khimaera05.github.io" />
-      <recent name="C:\Users\01tat\WebstormProjects\khimaera05.github.io\img" />
     </key>
+  </component>
+  <component name="RunManager" selected="npm.dev">
+    <configuration name="build (1)" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/khimaera05.github.io/khimaera05.github.io/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/khimaera05.github.io/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="check" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/khimaera05.github.io/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="check" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="dev (1)" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/khimaera05.github.io/khimaera05.github.io/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/khimaera05.github.io/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.dev" />
+        <item itemvalue="npm.build" />
+        <item itemvalue="npm.dev (1)" />
+        <item itemvalue="npm.build (1)" />
+        <item itemvalue="npm.check" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -61,6 +176,7 @@
       <workItem from="1655899625575" duration="10253000" />
       <workItem from="1656086113452" duration="378000" />
       <workItem from="1656091281328" duration="2757000" />
+      <workItem from="1656967740959" duration="338000" />
     </task>
     <task id="LOCAL-00001" summary="More adaptive and flexible">
       <created>1655910888048</created>
@@ -127,6 +243,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="More adaptive and flexible" />
     <MESSAGE value="Svelte is coming" />
     <MESSAGE value="New branch" />
