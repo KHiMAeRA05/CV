@@ -41,10 +41,14 @@
 	--bs-black-rgb: 0, 0, 0;
 	--bs-body-color-rgb: 33, 37, 41;
 	--bs-body-bg-rgb: 255, 255, 255;
-	--bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-	--bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+	--bs-font-sans-serif: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial,
+		'Noto Sans', 'Liberation Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+		'Segoe UI Symbol', 'Noto Color Emoji';
+	--bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New',
+		monospace;
 	--bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
-	--bs-body-font-family: Muli, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+	--bs-body-font-family: Muli, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue,
+		Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
 	--bs-body-font-size: 1rem;
 	--bs-body-font-weight: 400;
 	--bs-body-line-height: 1.5;
@@ -52,7 +56,8 @@
 	--bs-body-bg: #fff;
 }
 
-html, body {
+html,
+body {
 	margin: 0;
 	display: flex;
 	flex-direction: column;
@@ -80,16 +85,17 @@ button {
 	border-bottom: 2px solid #333333;
 }
 .blockquote-5::after {
-	font-family: "Segoe UI", serif;
+	font-family: 'Segoe UI', serif;
 	font-weight: bold;
 	position: absolute;
-	content: "”";
+	content: '”';
 	color: #333333;
 	font-size: 160px;
 	line-height: 0;
 	bottom: -22px;
 	right: 30px;
-	text-shadow: 2px 0 0 #333333, -2px 0 0 #333333, 0 2px 0 #333333, 0 -2px 0 #333333, 1px 1px #333333, -1px -1px 0 #333333, 1px -1px 0 #333333, -1px 1px 0 #333333;
+	text-shadow: 2px 0 0 #333333, -2px 0 0 #333333, 0 2px 0 #333333, 0 -2px 0 #333333, 1px 1px #333333,
+		-1px -1px 0 #333333, 1px -1px 0 #333333, -1px 1px 0 #333333;
 }
 .blockquote-5 cite {
 	color: #333333;
@@ -112,7 +118,7 @@ button {
 }
 
 .fill::after {
-	content: "";
+	content: '';
 	color: #efefef;
 	background-color: #333333;
 	width: 100%;
@@ -146,11 +152,10 @@ body::-webkit-scrollbar-thumb {
 }
 
 body {
-	font-family: "Segoe UI", serif;
+	font-family: 'Segoe UI', serif;
 	padding: 0;
 	margin: 0;
 	background: #f1f1f1;
-
 }
 
 hr {
@@ -189,19 +194,19 @@ nav li a:hover {
 }
 
 .active_edu:hover {
-	background-color: #E09D00;
+	background-color: #e09d00;
 }
 
 .active_skills:hover {
-	background-color: #00CFC1;
+	background-color: #00cfc1;
 }
 
 .active_interests:hover {
-	background-color: #5995ED;
+	background-color: #5995ed;
 }
 
 .active_awards:hover {
-	background-color: #2E4BB2;
+	background-color: #2e4bb2;
 }
 
 .active_contact:hover {
@@ -295,7 +300,7 @@ footer {
 }
 
 .row-section:after {
-	content: "";
+	content: '';
 	display: table;
 	clear: both;
 }
@@ -316,11 +321,10 @@ footer {
 
 /* Clear floats after the columns */
 .row:after {
-	content: "";
+	content: '';
 	display: table;
 	clear: both;
 }
-
 
 .api-right {
 	display: inline-block;
@@ -550,7 +554,7 @@ textarea {
 
 .clearfix::before,
 .clearfix::after {
-	content: " ";
+	content: ' ';
 	display: table;
 }
 
@@ -569,9 +573,9 @@ textarea {
 }
 
 @media print,
-(-webkit-min-device-pixel-ratio: 1.25),
-(min-resolution: 1.25dppx),
-(min-resolution: 120dpi) {
+	(-webkit-min-device-pixel-ratio: 1.25),
+	(min-resolution: 1.25dppx),
+	(min-resolution: 120dpi) {
 	/* Style adjustments for high resolution devices */
 }
 
@@ -598,20 +602,20 @@ textarea {
 	}
 
 	a[href]::after {
-		content: " (" attr(href) ")";
+		content: ' (' attr(href) ')';
 	}
 
 	abbr[title]::after {
-		content: " (" attr(title) ")";
+		content: ' (' attr(title) ')';
 	}
 
 	/*
      * Don't show links that are fragment identifiers,
      * or use the `javascript:` pseudo protocol
      */
-	a[href^="#"]::after,
-	a[href^="javascript:"]::after {
-		content: "";
+	a[href^='#']::after,
+	a[href^='javascript:']::after {
+		content: '';
 	}
 
 	pre {
@@ -648,5 +652,4 @@ textarea {
 	h3 {
 		page-break-after: avoid;
 	}
-
 }
