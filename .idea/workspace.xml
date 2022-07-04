@@ -4,11 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="69e11d2a-e4fe-4e84-9f67-5d70a1b91264" name="Changes" comment="SvelteKit: tests, prettier, linter" />
+    <list default="true" id="69e11d2a-e4fe-4e84-9f67-5d70a1b91264" name="Changes" comment="Merdge SvelteKit_branch and main">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -30,22 +39,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/01tat/WebstormProjects/khimaera05.github.io/khimaera05.github.io/static&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\01tat\\WebstormProjects\\khimaera05.github.io\\khimaera05.github.io\\node_modules\\typescript\\lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/01tat/WebstormProjects/khimaera05.github.io/khimaera05.github.io/static",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "ts.external.directory.path": "C:\\Users\\01tat\\WebstormProjects\\khimaera05.github.io\\khimaera05.github.io\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\01tat\WebstormProjects\khimaera05.github.io\khimaera05.github.io\static" />
@@ -54,14 +64,14 @@
       <recent name="C:\Users\01tat\WebstormProjects\khimaera05.github.io\img" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\01tat\WebstormProjects\khimaera05.github.io" />
       <recent name="C:\Users\01tat\WebstormProjects\khimaera05.github.io\khimaera05.github.io\src\routes" />
       <recent name="C:\Users\01tat\WebstormProjects\khimaera05.github.io\khimaera05.github.io" />
       <recent name="C:\Users\01tat\WebstormProjects\khimaera05.github.io\khimaera05.github.io\khimaera05.github.io\src\routes\items" />
       <recent name="C:\Users\01tat\WebstormProjects\khimaera05.github.io\khimaera05.github.io\khimaera05.github.io\src\routes\item" />
-      <recent name="C:\Users\01tat\WebstormProjects\khimaera05.github.io" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.format">
+  <component name="RunManager" selected="npm.build">
     <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/khimaera05.github.io/package.json" />
       <command value="run" />
@@ -114,11 +124,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.build" />
         <item itemvalue="npm.test" />
         <item itemvalue="npm.lint" />
         <item itemvalue="npm.format" />
         <item itemvalue="npm.dev" />
-        <item itemvalue="npm.build" />
       </list>
     </recent_temporary>
   </component>
@@ -134,6 +144,7 @@
       <workItem from="1656086113452" duration="378000" />
       <workItem from="1656091281328" duration="2757000" />
       <workItem from="1656967740959" duration="2290000" />
+      <workItem from="1656971917383" duration="38000" />
     </task>
     <task id="LOCAL-00001" summary="More adaptive and flexible">
       <created>1655910888048</created>
@@ -184,7 +195,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656970027820</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Merdge SvelteKit_branch and main">
+      <created>1656970569944</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1656970569944</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -215,11 +233,15 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/khimaera05.github.io/khimaera05.github.io" />
+    </ignored-roots>
     <MESSAGE value="More adaptive and flexible" />
     <MESSAGE value="Svelte is coming" />
     <MESSAGE value="New branch" />
     <MESSAGE value="SvelteKit" />
     <MESSAGE value="SvelteKit: tests, prettier, linter" />
-    <option name="LAST_COMMIT_MESSAGE" value="SvelteKit: tests, prettier, linter" />
+    <MESSAGE value="Merdge SvelteKit_branch and main" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merdge SvelteKit_branch and main" />
   </component>
 </project>
