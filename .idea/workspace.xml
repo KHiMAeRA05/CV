@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="69e11d2a-e4fe-4e84-9f67-5d70a1b91264" name="Changes" comment="Deploy" />
+    <list default="true" id="69e11d2a-e4fe-4e84-9f67-5d70a1b91264" name="Changes" comment="Prettier" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -64,10 +64,10 @@
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\01tat\WebstormProjects\khimaera05.github.io" />
+      <recent name="C:\Users\01tat\WebstormProjects\khimaera05.github.io\khimaera\static" />
+      <recent name="C:\Users\01tat\WebstormProjects\khimaera05.github.io\khimaera\src\routes" />
+      <recent name="C:\Users\01tat\WebstormProjects\khimaera05.github.io\khimaera\src" />
       <recent name="C:\Users\01tat\WebstormProjects\khimaera05.github.io\.github" />
-      <recent name="C:\Users\01tat\WebstormProjects\khimaera05.github.io\khimaera05.github.io\src\routes" />
-      <recent name="C:\Users\01tat\WebstormProjects\khimaera05.github.io\khimaera05.github.io" />
-      <recent name="C:\Users\01tat\WebstormProjects\khimaera05.github.io\khimaera05.github.io\khimaera05.github.io\src\routes\items" />
     </key>
   </component>
   <component name="RunManager" selected="npm.lint">
@@ -218,7 +218,28 @@
       <option name="project" value="LOCAL" />
       <updated>1656972861196</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Deploy">
+      <created>1657010282231</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1657010282231</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Deploy">
+      <created>1657010303092</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1657010303092</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Prettier">
+      <created>1657010380363</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1657010380363</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -259,6 +280,7 @@
     <MESSAGE value="SvelteKit: tests, prettier, linter" />
     <MESSAGE value="Merdge SvelteKit_branch and main" />
     <MESSAGE value="Deploy" />
-    <option name="LAST_COMMIT_MESSAGE" value="Deploy" />
+    <MESSAGE value="Prettier" />
+    <option name="LAST_COMMIT_MESSAGE" value="Prettier" />
   </component>
 </project>
