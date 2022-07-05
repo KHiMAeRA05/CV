@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="69e11d2a-e4fe-4e84-9f67-5d70a1b91264" name="Changes" comment="Prettier" />
+    <list default="true" id="69e11d2a-e4fe-4e84-9f67-5d70a1b91264" name="Changes" comment="Readme">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/github-actions.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/github-actions.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -239,7 +241,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657010380363</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Readme">
+      <created>1657010465780</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1657010465780</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -281,6 +290,7 @@
     <MESSAGE value="Merdge SvelteKit_branch and main" />
     <MESSAGE value="Deploy" />
     <MESSAGE value="Prettier" />
-    <option name="LAST_COMMIT_MESSAGE" value="Prettier" />
+    <MESSAGE value="Readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="Readme" />
   </component>
 </project>
