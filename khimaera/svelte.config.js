@@ -9,16 +9,8 @@ const config = {
 
 	kit: {
 		adapter: adapter({
-			pages: "docs",
-			assets: "docs",
 			fallback: 'index.html'
 		}),
-
-		methodOverride: {
-			allowed: ['PATCH', 'DELETE']
-		},
-
-		appDir: 'app_'
 	}
 };
 
