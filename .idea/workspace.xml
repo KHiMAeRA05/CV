@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="69e11d2a-e4fe-4e84-9f67-5d70a1b91264" name="Changes" comment="Deploy">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/github-actions.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/github-actions.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/khimaera/svelte.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/khimaera/svelte.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +54,7 @@
     "nodejs_package_manager_path": "npm",
     "prettierjs.PrettierConfiguration.Package": "C:\\Users\\01tat\\WebstormProjects\\khimaera05.github.io\\node_modules\\prettier",
     "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
-    "ts.external.directory.path": "C:\\Users\\01tat\\WebstormProjects\\khimaera05.github.io\\khimaera\\node_modules\\typescript\\lib",
+    "ts.external.directory.path": "C:\\Users\\01tat\\WebstormProjects\\CV1\\khimaera\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -149,6 +150,7 @@
       <workItem from="1657009327230" duration="122000" />
       <workItem from="1657009500814" duration="179000" />
       <workItem from="1657009696268" duration="59000" />
+      <workItem from="1657043198669" duration="229000" />
     </task>
     <task id="LOCAL-00001" summary="More adaptive and flexible">
       <created>1655910888048</created>
