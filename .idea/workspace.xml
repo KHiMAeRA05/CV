@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="69e11d2a-e4fe-4e84-9f67-5d70a1b91264" name="Changes" comment="Deploy">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/khimaera/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/khimaera/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/khimaera/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/khimaera/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/khimaera/svelte.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/khimaera/svelte.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/github-actions.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/github-actions.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -265,7 +262,21 @@
       <option name="project" value="LOCAL" />
       <updated>1657011107894</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Deploy">
+      <created>1657015356930</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1657015356930</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Deploy">
+      <created>1657015594455</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1657015594455</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
