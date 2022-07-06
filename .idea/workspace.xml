@@ -5,7 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="69e11d2a-e4fe-4e84-9f67-5d70a1b91264" name="Changes" comment="Deploy">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/github-actions.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/github-actions.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/khimaera/.eslintrc.cjs" beforeDir="false" afterPath="$PROJECT_DIR$/khimaera/.eslintrc.cjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/khimaera/.prettierrc" beforeDir="false" afterPath="$PROJECT_DIR$/khimaera/.prettierrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/khimaera/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/khimaera/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/khimaera/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/khimaera/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/khimaera/playwright.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/khimaera/playwright.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/khimaera/src/app.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/khimaera/src/app.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/khimaera/src/app.html" beforeDir="false" afterPath="$PROJECT_DIR$/khimaera/src/app.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/khimaera/src/routes/API.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/khimaera/src/routes/API.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/khimaera/src/routes/Awards.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/khimaera/src/routes/Awards.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/khimaera/src/routes/Education.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/khimaera/src/routes/Education.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/khimaera/src/routes/Footer.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/khimaera/src/routes/Footer.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/khimaera/src/routes/Header.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/khimaera/src/routes/Header.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/khimaera/src/routes/Home.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/khimaera/src/routes/Home.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/khimaera/src/routes/Interests.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/khimaera/src/routes/Interests.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/khimaera/src/routes/Skills.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/khimaera/src/routes/Skills.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/khimaera/src/routes/index.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/khimaera/src/routes/__layout.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/khimaera/src/routes/items/global.css" beforeDir="false" afterPath="$PROJECT_DIR$/khimaera/src/routes/items/global.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/khimaera/svelte.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/khimaera/svelte.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/khimaera/tests/test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/khimaera/tests/test.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/khimaera/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/khimaera/tsconfig.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,24 +59,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/01tat/WebstormProjects/khimaera05.github.io/khimaera05.github.io/static",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "prettierjs.PrettierConfiguration.Package": "C:\\Users\\01tat\\WebstormProjects\\khimaera05.github.io\\node_modules\\prettier",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
-    "ts.external.directory.path": "C:\\Users\\01tat\\WebstormProjects\\CV1\\khimaera\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/01tat/WebstormProjects/khimaera05.github.io/khimaera05.github.io/static&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;C:\\Users\\01tat\\WebstormProjects\\khimaera05.github.io\\node_modules\\prettier&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\01tat\\WebstormProjects\\CV1\\khimaera\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\01tat\WebstormProjects\khimaera05.github.io\khimaera05.github.io\static" />
@@ -65,24 +85,14 @@
       <recent name="C:\Users\01tat\WebstormProjects\khimaera05.github.io\img" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\01tat\WebstormProjects\CV1\khimaera\static" />
       <recent name="C:\Users\01tat\WebstormProjects\khimaera05.github.io\khimaera\static" />
       <recent name="C:\Users\01tat\WebstormProjects\khimaera05.github.io" />
       <recent name="C:\Users\01tat\WebstormProjects\khimaera05.github.io\khimaera\src\routes" />
       <recent name="C:\Users\01tat\WebstormProjects\khimaera05.github.io\khimaera\src" />
-      <recent name="C:\Users\01tat\WebstormProjects\khimaera05.github.io\.github" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.build (2)">
-    <configuration name="build (1)" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="build" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="npm.lint">
     <configuration name="build (2)" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/khimaera/package.json" />
       <command value="run" />
@@ -123,13 +133,23 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="test" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/khimaera/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="test" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.build (2)" />
         <item itemvalue="npm.lint" />
         <item itemvalue="npm.format" />
+        <item itemvalue="npm.test" />
         <item itemvalue="npm.dev" />
-        <item itemvalue="npm.build (1)" />
+        <item itemvalue="npm.build (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -149,7 +169,9 @@
       <workItem from="1657009327230" duration="122000" />
       <workItem from="1657009500814" duration="179000" />
       <workItem from="1657009696268" duration="59000" />
-      <workItem from="1657043198669" duration="580000" />
+      <workItem from="1657043198669" duration="1197000" />
+      <workItem from="1657095414471" duration="36000" />
+      <workItem from="1657096009042" duration="374000" />
     </task>
     <task id="LOCAL-00001" summary="More adaptive and flexible">
       <created>1655910888048</created>
@@ -284,7 +306,21 @@
       <option name="project" value="LOCAL" />
       <updated>1657043700711</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Deploy">
+      <created>1657043790367</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1657043790367</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Deploy">
+      <created>1657043988875</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1657043988875</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
