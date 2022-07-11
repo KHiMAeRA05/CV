@@ -5,27 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="69e11d2a-e4fe-4e84-9f67-5d70a1b91264" name="Changes" comment="Deploy">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/github-actions.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/github-actions.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/khimaera/.eslintrc.cjs" beforeDir="false" afterPath="$PROJECT_DIR$/khimaera/.eslintrc.cjs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/khimaera/.prettierrc" beforeDir="false" afterPath="$PROJECT_DIR$/khimaera/.prettierrc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/khimaera/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/khimaera/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/khimaera/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/khimaera/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/khimaera/playwright.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/khimaera/playwright.config.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/khimaera/src/app.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/khimaera/src/app.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/khimaera/src/app.html" beforeDir="false" afterPath="$PROJECT_DIR$/khimaera/src/app.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/khimaera/src/routes/API.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/khimaera/src/routes/API.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/khimaera/src/routes/Awards.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/khimaera/src/routes/Awards.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/khimaera/src/routes/Education.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/khimaera/src/routes/Education.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/khimaera/src/routes/Footer.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/khimaera/src/routes/Footer.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/khimaera/src/routes/Header.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/khimaera/src/routes/Header.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/khimaera/src/routes/Home.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/khimaera/src/routes/Home.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/khimaera/src/routes/Interests.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/khimaera/src/routes/Interests.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/khimaera/src/routes/Skills.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/khimaera/src/routes/Skills.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/khimaera/src/routes/index.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/khimaera/src/routes/__layout.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/khimaera/src/routes/items/global.css" beforeDir="false" afterPath="$PROJECT_DIR$/khimaera/src/routes/items/global.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/khimaera/svelte.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/khimaera/svelte.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/khimaera/tests/test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/khimaera/tests/test.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/khimaera/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/khimaera/tsconfig.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +31,9 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$PROJECT_DIR$/khimaera/package.json" />
   </component>
   <component name="ProjectId" id="2Avos4JrbVPAf22ABkRBiwzIzwP" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -172,6 +156,7 @@
       <workItem from="1657043198669" duration="1197000" />
       <workItem from="1657095414471" duration="36000" />
       <workItem from="1657096009042" duration="374000" />
+      <workItem from="1657562582942" duration="380000" />
     </task>
     <task id="LOCAL-00001" summary="More adaptive and flexible">
       <created>1655910888048</created>
